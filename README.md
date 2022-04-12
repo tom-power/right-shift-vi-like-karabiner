@@ -1,6 +1,6 @@
 # Vi like key bindings for MacOS using right shift
 
-[Karabiner elements](https://github.com/tekezo/Karabiner-Elements) configuration for vi like keymappings on macOS Seirra.
+[Karabiner elements](https://github.com/tekezo/Karabiner-Elements) configuration for vi like key mappings on MacOS Sierra.
 
 ### Mappings
 
@@ -10,7 +10,7 @@ all with right shift pressed..
 - h/j/k/l -> mapped to arrow keys
 - w/b -> word forward/back
 - a/e -> home/end
-- ;/p -> pageup/down
+- ;/p -> page up/down
 - u/o -> cmd+shift+[/] (tab switch)
 - +command/option/left shift/control -> apply to above
 
