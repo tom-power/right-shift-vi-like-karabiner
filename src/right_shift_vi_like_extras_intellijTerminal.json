@@ -71,7 +71,7 @@
       }]
     },
     {
-      "description": "Home intellij (right_shift+e to right_control+e)",
+      "description": "End intellij (right_shift+e to right_control+e)",
       "manipulators": [{
         "from": {
           "key_code": "e",
