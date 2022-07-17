@@ -1,5 +1,5 @@
 {
-  "title": "right shift vi like intellij terminal",
+  "title": "right shift vi like extras terminal",
   "rules": [
     {
       "description": "Home not intellij (right_shift+a to right_command+left)",
@@ -82,50 +82,6 @@
         },
         "to": [{
           "key_code": "e",
-          "modifiers": [
-            "right_control"
-          ]
-        }],
-        "type": "basic",
-        "conditions": [{
-          "type": "frontmost_application_if",
-          "bundle_identifiers": ["^com\\.jetbrains\\..*$"]
-        }]
-      }]
-    },
-    {
-      "description": "Control u intellij (left_command+u to right_control+u)",
-      "manipulators": [{
-        "from": {
-          "key_code": "u",
-          "modifiers": {
-            "mandatory": ["left_command"]
-          }
-        },
-        "to": [{
-          "key_code": "u",
-          "modifiers": [
-            "right_control"
-          ]
-        }],
-        "type": "basic",
-        "conditions": [{
-          "type": "frontmost_application_if",
-          "bundle_identifiers": ["^com\\.jetbrains\\..*$"]
-        }]
-      }]
-    },
-    {
-      "description": "Control k intellij (left_command+k to right_control+k)",
-      "manipulators": [{
-        "from": {
-          "key_code": "k",
-          "modifiers": {
-            "mandatory": ["left_command"]
-          }
-        },
-        "to": [{
-          "key_code": "k",
           "modifiers": [
             "right_control"
           ]
