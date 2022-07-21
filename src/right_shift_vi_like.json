@@ -10,7 +10,6 @@
             "modifiers": {
               "mandatory": ["right_shift"],
               "optional": ["any"]
-
             }
           },
           "to": [
@@ -548,108 +547,6 @@
       ]
     },
     {
-      "description": "Rename (right_shift+r to shift+f6)",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "r",
-            "modifiers": {
-              "mandatory": [
-                "right_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "f6",
-              "modifiers": [
-                "left_shift"
-              ]
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Hash (right_shift+3 to #)",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "3",
-            "modifiers": {
-              "mandatory": [
-                "right_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "3",
-              "modifiers": [
-                "left_option"
-              ]
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Thin arrow (right_shift+- to ->)",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "hyphen",
-            "modifiers": {
-              "mandatory": [
-                "right_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "hyphen"
-            },
-            {
-              "key_code": "period",
-              "modifiers": [
-                "left_shift"
-              ]
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Fat arrow (right_shift+= to =>)",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "equal_sign",
-            "modifiers": {
-              "mandatory": [
-                "right_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "equal_sign"
-            },
-            {
-              "key_code": "period",
-              "modifiers": [
-                "left_shift"
-              ]
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
       "description": "Go back (right_shift+cmd+option+h to cmd+[)",
       "manipulators": [
         {
@@ -743,75 +640,6 @@
               "modifiers": [
                 "left_command",
                 "left_shift"
-              ]
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Single quote (right_shift+q to single quote)",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "q",
-            "modifiers": {
-              "mandatory": [
-                "right_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "quote"
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Double quote (right_shift+2 to double quote)",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "2",
-            "modifiers": {
-              "mandatory": [
-                "right_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "2",
-              "modifiers": [
-                "left_shift"
-              ]
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Search focus (right_shift+g to l+command)",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "g",
-            "modifiers": {
-              "mandatory": [
-                "right_shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "l",
-              "modifiers": [
-                "right_command"
               ]
             }
           ],
