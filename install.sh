@@ -32,10 +32,16 @@ if [ ! -d /Applications/Karabiner-Elements.app ]; then
   cask_install karabiner-elements
 fi
 
-if [ ! -d ~/.config/karabiner/assets/complex_modifications/ ]; then
-    mkdir -p ~/.config/karabiner/assets/complex_modifications/
+configDir=~/.config/karabiner/assets/complex_modifications/
+
+if [ ! -d $configDir ]; then
+  mkdir -p $configDir
 fi
 
-cp ./src/* ~/.config/karabiner/assets/complex_modifications/
+cp ./src/right_shift_vi_like.json $configDir
+
+if  [ $1 == "--with-extras" ]; then
+  cp ./src/extras/* $configDir
+fi
 
 echo "All done, remember to install the configurations in karabiner-elements preferences"

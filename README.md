@@ -15,15 +15,11 @@ all with right shift pressed..
 - +command/option/left shift/control -> apply to above
 
 ##### Editing
-- s/c/v/x/z/t sent with command modifier
+- s/c/v/x/z/t/i sent with command modifier
 - m -> return
 - f/d -> delete/backspace
 - space -> tab
 - space+left shift -> shift tab
-- q/2 -> single/double quotes
-- 3 -> hash
-- -/= -> ->/=>
-- r -> f6+shift (rename)
 
 ##### Other
 - command+space -> escape
@@ -33,12 +29,16 @@ all with right shift pressed..
 - g -> cmd+l (address bar)
 - h/l -> cmd+[/] (history back/forward)
 
+## extras
+
+have included some mappings I find useful but seem outside scope in `src/extras`, install with the option below.
+
 ### Installation
 
 ```
-clone https://github.com/tom-power/right-shift-vi-like-karabiner.git
-cd right-shift-vi-like-karabiner
-./install.sh
+clone https://github.com/tom-power/right-shift-vi-like-karabiner.git &&
+cd right-shift-vi-like-karabiner &&
+./install.sh [--with-extras]
 ```
 
 Alternatively install [Karabiner elements](https://pqrs.org/osx/karabiner/) then import the [rules](https://pqrs.org/osx/karabiner/complex_modifications/#right_shift_vi_like) from it's site.
