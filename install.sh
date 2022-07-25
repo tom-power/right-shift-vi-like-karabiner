@@ -40,7 +40,7 @@ fi
 
 cp ./src/right_shift_vi_like.json $configDir
 
-if  [ $1 == "--with-extras" ]; then
+if  [ "$1" == "--with-extras" ]; then
   cp ./src/extras/* $configDir
 fi
 
