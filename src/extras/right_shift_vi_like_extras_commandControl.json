@@ -90,24 +90,6 @@
         }],
         "type": "basic"
       }]
-    },
-    {
-      "description": "Control g (left_command+g to right_control+g)",
-      "manipulators": [{
-        "from": {
-          "key_code": "g",
-          "modifiers": {
-            "mandatory": ["left_command"]
-          }
-        },
-        "to": [{
-          "key_code": "g",
-          "modifiers": [
-            "right_control"
-          ]
-        }],
-        "type": "basic"
-      }]
     }
   ]
 }
