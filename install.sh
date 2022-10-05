@@ -41,7 +41,7 @@ fi
 cp ./src/right_shift_vi_like.json $configDir
 
 if  [ "$1" == "--with-extras" ]; then
-  cp ./src/extras/* $configDir
+  cp ./src/right_shift_vi_like_extras $configDir
 fi
 
 echo "All done, remember to install the configurations in karabiner-elements preferences"
