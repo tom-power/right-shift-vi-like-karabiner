@@ -53,7 +53,10 @@
             "key_code": "j",
             "modifiers": {
               "mandatory": [ "right_shift" ],
-              "optional": ["left_shift"]
+              "optional": [
+                "left_shift",
+                "left_alt"
+              ]
             }
           },
           "to": [
@@ -141,7 +144,10 @@
             "key_code": "k",
             "modifiers": {
               "mandatory": [ "right_shift" ],
-              "optional": ["left_shift"]
+              "optional": [
+                "left_shift",
+                "left_alt"
+              ]
             }
           },
           "to": [
