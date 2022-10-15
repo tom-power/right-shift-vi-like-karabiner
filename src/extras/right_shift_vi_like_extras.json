@@ -1,7 +1,6 @@
 {
   "title": "right shift vi like extras",
-  "rules": [
-    {
+  "rules": [{
       "description": "Thin arrow (right_shift+- to ->)",
       "manipulators": [{
         "from": {
@@ -102,6 +101,25 @@
           "modifiers": [
             "right_command"
           ]
+        }],
+        "type": "basic"
+      }]
+    },
+    {
+      "description": "./ (right_shift+1 to ./)",
+      "manipulators": [{
+        "from": {
+          "key_code": "1",
+          "modifiers": {
+            "mandatory": [
+              "right_shift"
+            ]
+          }
+        },
+        "to": [{
+          "key_code": "period"
+        }, {
+          "key_code": "slash"
         }],
         "type": "basic"
       }]
