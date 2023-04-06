@@ -523,57 +523,6 @@
       ]
     },
     {
-      "description": "Go back (right_shift+cmd+option+h to cmd+[)",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "h",
-            "modifiers": {
-              "mandatory": [
-                "right_shift",
-                "left_command",
-                "left_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "open_bracket",
-              "modifiers": [
-                "left_command"
-              ]
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Go forward (right_shift+cmd+option+l to cmd+])",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "l",
-            "modifiers": {
-              "mandatory": [
-                "right_shift",
-                "left_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "close_bracket",
-              "modifiers": [
-                "left_command"
-              ]
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
       "description": "Go to tab to left (right_shift+u to cmd+shift+[)",
       "manipulators": [
         {
@@ -646,6 +595,26 @@
           "type": "basic"
         }
       ]
+    },
+    {
+      "description": "Search focus (right_shift+g to l+command)",
+      "manipulators": [{
+        "from": {
+          "key_code": "g",
+          "modifiers": {
+            "mandatory": [
+              "right_shift"
+            ]
+          }
+        },
+        "to": [{
+          "key_code": "l",
+          "modifiers": [
+            "right_command"
+          ]
+        }],
+        "type": "basic"
+      }]
     }
   ]
 }
