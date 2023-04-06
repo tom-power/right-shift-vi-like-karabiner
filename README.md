@@ -1,52 +1,72 @@
-# Vi like key bindings for MacOS using right shift
+# Vi like key bindings for MacOS
 
-[Karabiner elements](https://github.com/tekezo/Karabiner-Elements) configuration for vi like key mappings on MacOS Sierra.
+Inspired by vi like editor keybindings, these [Karabiner elements](https://github.com/tekezo/Karabiner-Elements) configurations have more or less saved my life, YMMV!
 
 ### Mappings
 
-all with right shift pressed..
+With **right shift** as modifier unless mentioned..
 
-##### Movement/navigation
-- h/j/k/l -> mapped to arrow keys
-- w/b -> word forward/back
-- a/e -> home/end
-- ;/p -> page up/down
-- u/o -> cmd+shift+[/] (tab switch)
-- +command/option/left shift/control -> apply to above
+#### Movement/navigation
 
-##### Editing
-- s/c/v/x/z/t/i sent with command modifier
-- m -> return
-- f/d -> delete/backspace
-- space -> tab
-- space+left shift -> shift tab
+| From  | To |
+| --------------------  |-------------------------- |
+|h/j/k/l                | arrow keys                |
+|w/b                    | word forward/back         |
+|a/e                    | home/end                  |
+|p/;                    | page up/down              |
+|u/o                    | cmd+shift+[/] (tab switch)|
+|cmd/shift/opt/ctrl     | additional modifier       |
 
-##### Other
-- command+space -> escape
-- command+enter -> command+space (spotlight default)
-- g -> search focus
-- y -> cmd+w (close tab)
-- g -> cmd+l (address bar)
-- h/l -> cmd+[/] (history back/forward)
+#### Editing
 
-## extras
+| From             | To               |
+| ---------------- | ---------------- |
+| s/c/v/x/z/t/i    | same with cmd    |
+| m                | return           |
+| f/d              | delete/backspace |
+| space            | tab              |
+| space+left shift | shift tab        |
 
-have included some mappings I find useful but seem outside scope in `src/extras`, install with the option below.
+
+#### Other
+
+| From                       | To                        |
+| -------------------------- | ------------------------- |
+| y                          | cmd+w (close)             |
+| g                          | cmd+l (focus address bar) |
+| cmd+space (no right_shift) | escape                    |
+| cmd+enter (no right_shift) | cmd+space                 |
+
+
+### Extras
+
+Have included some mappings I find useful in `src/extras`, install using `--with-extras` below, some descriptions:
+
+| From                                 | To                               |
+|--------------------------------------|----------------------------------|
+| right_shift+right_shift+double_quote | wrap selection in double quotes  |
+| right_shift+q                        | single quote                     |
+| right_shift+i                        | ./                               |
+| right_shift+left_shift+i             | ../                              |
+| right_shift+`                        | ~/                               |
+| right_shift+cmd+option+h/l           | cmd+[/] (back forward in history |
 
 ### Installation
 
-```
+Install [Karabiner elements](https://github.com/tekezo/Karabiner-Elements), then..
+
+```bash
 clone https://github.com/tom-power/right-shift-vi-like-karabiner.git &&
-cd right-shift-vi-like-karabiner &&
+cd ./right-shift-vi-like-karabiner &&
 ./install.sh [--with-extras]
 ```
 
-Alternatively install [Karabiner elements](https://pqrs.org/osx/karabiner/) then import the [rules](https://pqrs.org/osx/karabiner/complex_modifications/#right_shift_vi_like) from it's site.
+Alternatively, import the modifications from Karabiner-Elements site [rules](https://pqrs.org/osx/karabiner/complex_modifications/#right_shift_vi_like).
 
 For both methods the rules will need to be loaded in the Karabiner elements UI:
 
 ```"Preferences" -> "Complex Modifications" -> "Add rule" -> "right shift vi like" -> "Enable all"```
 
-Is better with capslock bound to left command:
+Suggest to bind capslock to left cmd too:
 
-```"Preferences" -> "Simple Modifications" -> "Add item" -> "from" -> "caps_lock" -> "to" -> "left_command"```
+```"Preferences" -> "Simple Modifications" -> "Add item" -> "from" -> "caps_lock" -> "to" -> "left_cmd"```
