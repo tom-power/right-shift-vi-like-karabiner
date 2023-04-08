@@ -15,13 +15,13 @@ With **right shift** as modifier unless mentioned..
 |a/e                    | home/end                  |
 |p/;                    | page up/down              |
 |u/o                    | cmd+shift+[/] (tab switch)|
-|cmd/shift/opt/ctrl     | additional modifier       |
+|+cmd/shift/opt/ctrl    | send with any of above    |
 
 #### Editing
 
 | From             | To               |
 | ---------------- | ---------------- |
-| s/c/v/x/z/t/i    | same with cmd    |
+| s/c/v/x/z/t/i    | send with cmd    |
 | m                | return           |
 | f/d              | delete/backspace |
 | space            | tab              |
