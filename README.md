@@ -9,13 +9,13 @@ With **right shift** as modifier unless mentioned..
 #### Movement/navigation
 
 | From  | To |
-| --------------------  |-------------------------- |
-|h/j/k/l                | arrow keys                |
-|w/b                    | word forward/back         |
-|a/e                    | home/end                  |
-|p/;                    | page up/down              |
-|u/o                    | cmd+shift+[/] (tab switch)|
-|+cmd/shift/opt/ctrl    | send with any of above    |
+| ------------------- | -------------------------- |
+| h/j/k/l             | arrow keys                 |
+| w/b                 | word forward/back          |
+| a/e                 | home/end                   |
+| p/;                 | page up/down               |
+| u/o                 | cmd+shift+[/] (tab switch) |
+| +cmd/shift/opt/ctrl | send with any of above     |
 
 #### Editing
 
@@ -65,8 +65,8 @@ Alternatively, import the modifications from Karabiner-Elements site [rules](htt
 
 For both methods the rules will need to be loaded in the Karabiner elements UI:
 
-```"Preferences" -> "Complex Modifications" -> "Add rule" -> "right shift vi like" -> "Enable all"```
+```Preferences -> Complex Modifications -> Add rule -> right shift vi like -> Enable all```
 
 Suggest to bind capslock to left cmd too:
 
-```"Preferences" -> "Simple Modifications" -> "Add item" -> "from" -> "caps_lock" -> "to" -> "left_cmd"```
+```Preferences -> Simple Modifications -> Add item -> from -> caps_lock -> to -> left_cmd```
