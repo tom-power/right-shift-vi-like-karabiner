@@ -8,14 +8,14 @@ With **right shift** as modifier unless mentioned..
 
 #### Movement/navigation
 
-| From  | To |
-| ------------------- | -------------------------- |
-| h/j/k/l             | arrow keys                 |
-| w/b                 | word forward/back          |
-| a/e                 | home/end                   |
-| p/;                 | page up/down               |
-| u/o                 | cmd+shift+[/] (tab switch) |
-| +cmd/shift/opt/ctrl | send with any of above     |
+| From                | To                          |
+| ------------------- | --------------------------- |
+| h/j/k/l             | arrow keys                  |
+| w/b                 | word forward/back           |
+| a/e                 | home/end                    |
+| p/;                 | page up/down                |
+| u/o                 | cmd+shift+\[/] (tab switch) |
+| +cmd/shift/opt/ctrl | send with any of above      |
 
 #### Editing
 
@@ -27,7 +27,6 @@ With **right shift** as modifier unless mentioned..
 | space            | tab              |
 | space+left shift | shift tab        |
 
-
 #### Other
 
 | From                       | To                        |
@@ -37,19 +36,18 @@ With **right shift** as modifier unless mentioned..
 | cmd+space (no right_shift) | escape                    |
 | cmd+enter (no right_shift) | cmd+space                 |
 
-
 ### Extras
 
-Have included some mappings I find useful in `src/extras`, install using `--with-extras` below, some descriptions:
+Have included some extra mappings I find useful in `src/extras`, install using `--with-extras` below, some descriptions:
 
-| From                                 | To                               |
-|--------------------------------------|----------------------------------|
-| right_shift+right_shift+double_quote | wrap selection in double quotes  |
-| right_shift+q                        | single quote                     |
-| right_shift+i                        | ./                               |
-| right_shift+left_shift+i             | ../                              |
-| right_shift+`                        | ~/                               |
-| right_shift+cmd+option+h/l           | cmd+[/] (back forward in history |
+| From                    | To                                |
+| ----------------------- | --------------------------------- |
+| left_shift+double_quote | wrap selection in double quotes   |
+| q                       | single quote                      |
+| i                       | ./                                |
+| left_shift+i            | ../                               |
+| \`                      | ~/                                |
+| cmd+option+h/l          | cmd+[/] \(back forward in history |
 
 ### Installation
 
@@ -65,8 +63,8 @@ Alternatively, import the modifications from Karabiner-Elements site [rules](htt
 
 For both methods the rules will need to be loaded in the Karabiner elements UI:
 
-```Preferences -> Complex Modifications -> Add rule -> right shift vi like -> Enable all```
+`Preferences -> Complex Modifications -> Add rule -> right shift vi like -> Enable all`
 
 Suggest to bind capslock to left cmd too:
 
-```Preferences -> Simple Modifications -> Add item -> from -> caps_lock -> to -> left_cmd```
+`Preferences -> Simple Modifications -> Add item -> from -> caps_lock -> to -> left_cmd`
