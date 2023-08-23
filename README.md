@@ -38,7 +38,7 @@ have included some mappings I find useful but seem outside scope in `src/extras`
 ```
 clone https://github.com/tom-power/right-shift-vi-like-karabiner.git &&
 cd right-shift-vi-like-karabiner &&
-./install.sh [--with-extras]
+sh/install.sh [--with-extras]
 ```
 
 Alternatively install [Karabiner elements](https://pqrs.org/osx/karabiner/) then import the [rules](https://pqrs.org/osx/karabiner/complex_modifications/#right_shift_vi_like) from it's site.
