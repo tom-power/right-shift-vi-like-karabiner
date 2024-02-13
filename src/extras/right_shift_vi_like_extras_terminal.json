@@ -19,7 +19,7 @@
         "type": "basic",
         "conditions": [{
           "type": "frontmost_application_unless",
-          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$", "^com\\.jetbrains\\.intellij\\.ce$", "^com\\.googlecode\\.iterm2$", "^com\\.github\\.atom$"]
+          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$", "^com\\.jetbrains\\.intellij\\.ce$", "^com\\.jetbrains\\.intellij-EAP$", "^com\\.googlecode\\.iterm2$", "^com\\.microsoft\\.VSCode$"]
         }]
       }]
     },
@@ -42,7 +42,7 @@
         "type": "basic",
         "conditions": [{
           "type": "frontmost_application_if",
-          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$", "^com\\.jetbrains\\.intellij\\.ce$", "^com\\.googlecode\\.iterm2$", "^com\\.github\\.atom$"]
+          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$", "^com\\.jetbrains\\.intellij\\.ce$", "^com\\.jetbrains\\.intellij-EAP$", "^com\\.googlecode\\.iterm2$", "^com\\.microsoft\\.VSCode$"]
         }]
       }]
     },
@@ -65,7 +65,7 @@
         "type": "basic",
         "conditions": [{
           "type": "frontmost_application_unless",
-          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$", "^com\\.jetbrains\\.intellij\\.ce$", "^com\\.googlecode\\.iterm2$", "^com\\.github\\.atom$"]
+          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$", "^com\\.jetbrains\\.intellij\\.ce$", "^com\\.jetbrains\\.intellij-EAP$", "^com\\.googlecode\\.iterm2$", "^com\\.microsoft\\.VSCode$"]
         }]
       }]
     },
@@ -88,7 +88,7 @@
         "type": "basic",
         "conditions": [{
           "type": "frontmost_application_if",
-          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$", "^com\\.jetbrains\\.intellij\\.ce$", "^com\\.googlecode\\.iterm2$", "^com\\.github\\.atom$"]
+          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$", "^com\\.jetbrains\\.intellij\\.ce$", "^com\\.jetbrains\\.intellij-EAP$", "^com\\.googlecode\\.iterm2$", "^com\\.microsoft\\.VSCode$"]
         }]
       }]
     }
