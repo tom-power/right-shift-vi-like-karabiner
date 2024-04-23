@@ -7,17 +7,17 @@ fi
 
 echo "Copying config.."
 
-configDir=~/.config/karabiner/assets/complex_modifications/
+karabinerDir=~/.config/karabiner/assets/complex_modifications/
 
-if [ ! -d $configDir ]; then
-  mkdir -p $configDir
+if [ ! -d $karabinerDir ]; then
+  mkdir -p $karabinerDir
 fi
 
-cp ./src/right_shift_vi_like.json $configDir
+cp ./src/right_shift_vi_like.json $karabinerDir
 
 if  [ "$1" == "--with-extras" ]; then
   echo "copying extras.."
-  cp ./src/extras/* $configDir
+  cp ./src/extras/* $karabinerDir
 fi
 
 echo "..all done, remember to the install mappings through Karabiner-Elements preferences"
