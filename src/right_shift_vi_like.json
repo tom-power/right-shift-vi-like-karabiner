@@ -238,9 +238,9 @@
       "manipulators": [
         {
           "from": {
-            "key_code": "left_control",
+            "key_code": "return_or_enter",
             "modifiers": {
-              "mandatory": [ "return_or_enter" ],
+              "mandatory": [ "left_control" ],
               "optional": [ "any" ]
             }
           },
