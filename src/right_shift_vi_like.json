@@ -194,26 +194,6 @@
       ]
     },
     {
-      "description": "Page up 2 (left_control+backspace to page_up)",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "backspace",
-            "modifiers": {
-              "mandatory": [ "left_control" ],
-              "optional": [ "any" ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "page_up"
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
       "description": "Page down (right_shift+; to page_down)",
       "manipulators": [
         {
@@ -221,26 +201,6 @@
             "key_code": "semicolon",
             "modifiers": {
               "mandatory": [ "right_shift" ],
-              "optional": [ "any" ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "page_down"
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Page down 2 (left_control+enter to page_down)",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "return_or_enter",
-            "modifiers": {
-              "mandatory": [ "left_control" ],
               "optional": [ "any" ]
             }
           },
