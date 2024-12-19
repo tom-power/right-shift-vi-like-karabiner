@@ -5,7 +5,7 @@ if [ ! -d /Applications/Karabiner-Elements.app ]; then
   exit
 fi
 
-echo "Copying config.."
+echo "copying config.."
 
 karabinerDir=~/.config/karabiner/assets/complex_modifications/
 
