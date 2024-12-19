@@ -19,7 +19,14 @@
         "type": "basic",
         "conditions": [{
           "type": "frontmost_application_unless",
-          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$", "^com\\.jetbrains\\.intellij\\.ce$", "^com\\.jetbrains\\.intellij-EAP$", "^com\\.googlecode\\.iterm2$", "^com\\.microsoft\\.VSCode$"]
+          "bundle_identifiers": [
+            "^com\\.jetbrains\\.intellij$",
+            "^com\\.jetbrains\\.intellij\\.ce$",
+            "^com\\.jetbrains\\.intellij-EAP$",
+            "^com\\.googlecode\\.iterm2$",
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.jetbrains\\.pycharm\\.ce$"
+          ]
         }]
       }]
     },
@@ -42,7 +49,14 @@
         "type": "basic",
         "conditions": [{
           "type": "frontmost_application_if",
-          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$", "^com\\.jetbrains\\.intellij\\.ce$", "^com\\.jetbrains\\.intellij-EAP$", "^com\\.googlecode\\.iterm2$", "^com\\.microsoft\\.VSCode$"]
+          "bundle_identifiers": [
+            "^com\\.jetbrains\\.intellij$",
+            "^com\\.jetbrains\\.intellij\\.ce$",
+            "^com\\.jetbrains\\.intellij-EAP$",
+            "^com\\.googlecode\\.iterm2$",
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.jetbrains\\.pycharm\\.ce$"
+          ]
         }]
       }]
     },
@@ -65,7 +79,14 @@
         "type": "basic",
         "conditions": [{
           "type": "frontmost_application_unless",
-          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$", "^com\\.jetbrains\\.intellij\\.ce$", "^com\\.jetbrains\\.intellij-EAP$", "^com\\.googlecode\\.iterm2$", "^com\\.microsoft\\.VSCode$"]
+          "bundle_identifiers": [
+            "^com\\.jetbrains\\.intellij$",
+            "^com\\.jetbrains\\.intellij\\.ce$",
+            "^com\\.jetbrains\\.intellij-EAP$",
+            "^com\\.googlecode\\.iterm2$",
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.jetbrains\\.pycharm\\.ce$"
+          ]
         }]
       }]
     },
@@ -88,7 +109,14 @@
         "type": "basic",
         "conditions": [{
           "type": "frontmost_application_if",
-          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$", "^com\\.jetbrains\\.intellij\\.ce$", "^com\\.jetbrains\\.intellij-EAP$", "^com\\.googlecode\\.iterm2$", "^com\\.microsoft\\.VSCode$"]
+          "bundle_identifiers": [
+            "^com\\.jetbrains\\.intellij$",
+            "^com\\.jetbrains\\.intellij\\.ce$",
+            "^com\\.jetbrains\\.intellij-EAP$",
+            "^com\\.googlecode\\.iterm2$",
+            "^com\\.microsoft\\.VSCode$",
+            "^com\\.jetbrains\\.pycharm\\.ce$"
+          ]
         }]
       }]
     }
