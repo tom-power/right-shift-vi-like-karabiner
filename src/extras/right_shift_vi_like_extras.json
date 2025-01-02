@@ -183,6 +183,7 @@
             "modifiers": {
               "mandatory": [
                 "right_shift",
+                "left_command",
                 "left_option"
               ]
             }
