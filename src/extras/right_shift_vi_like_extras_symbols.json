@@ -1,5 +1,5 @@
 {
-  "title": "right shift vi like extras",
+  "title": "right shift vi like extras symbols",
   "rules": [{
       "description": "Thin arrow (right_shift+- to ->)",
       "manipulators": [{
@@ -49,43 +49,6 @@
       }]
     },
     {
-      "description": "Single quote (right_shift+q to single quote)",
-      "manipulators": [{
-        "from": {
-          "key_code": "q",
-          "modifiers": {
-            "mandatory": [
-              "right_shift"
-            ]
-          }
-        },
-        "to": [{
-          "key_code": "quote"
-        }],
-        "type": "basic"
-      }]
-    },
-    {
-      "description": "Rename (right_shift+r to shift+f6)",
-      "manipulators": [{
-        "from": {
-          "key_code": "r",
-          "modifiers": {
-            "mandatory": [
-              "right_shift"
-            ]
-          }
-        },
-        "to": [{
-          "key_code": "f6",
-          "modifiers": [
-            "left_shift"
-          ]
-        }],
-        "type": "basic"
-      }]
-    },
-    {
       "description": "./ (right_shift+i to ./)",
       "manipulators": [{
         "from": {
@@ -130,7 +93,7 @@
       "description": "~/ (right_shift+` to ~/)",
       "manipulators": [{
         "from": {
-          "key_code": "non_us_backslash",
+          "key_code": "grave_accent_and_tilde",
           "modifiers": {
             "mandatory": [
               "right_shift"
@@ -147,58 +110,6 @@
         }],
         "type": "basic"
       }]
-    },
-    {
-      "description": "Go back (right_shift+cmd+option+h to cmd+[)",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "h",
-            "modifiers": {
-              "mandatory": [
-                "right_shift",
-                "left_command",
-                "left_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "open_bracket",
-              "modifiers": [
-                "left_command"
-              ]
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Go forward (right_shift+cmd+option+l to cmd+])",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "l",
-            "modifiers": {
-              "mandatory": [
-                "right_shift",
-                "left_command",
-                "left_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "close_bracket",
-              "modifiers": [
-                "left_command"
-              ]
-            }
-          ],
-          "type": "basic"
-        }
-      ]
     }
   ]
 }
